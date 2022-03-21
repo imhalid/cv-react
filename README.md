@@ -1,5 +1,7 @@
 # cv-react
 
+<a href="https://imhalid.github.io/cv-react/">Click to Preview</a> <br>
+
 Another challenge I made myself. I learned many things again, the most important of which is that the measurements are not always correct when working with Figma!! :D
 
 i found out that i need to post my files to github via vscode instead of terminal.
