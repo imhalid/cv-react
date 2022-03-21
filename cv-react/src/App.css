@@ -1,38 +1,116 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+/* font-family: 'Inter', sans-serif; */
+img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 317px;
+  overflow: hidden;
+}
+
+.main {
+  width: 317px;
+  background-color: #f5f5f5;
+  border-radius: 0px 0px 10px 10px;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+  color: black;
+}
+
+body {
+  font-family: "Inter", sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titles {
+  margin-top: 21px;
+  margin-bottom: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 6.19px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.job {
+  color: #f3bf99;
+  font-weight: 400;
+  font-size: 12.8px;
+  margin-bottom: 8.81px;
+}
+
+.website {
+  font-weight: 400;
+  font-size: 10.24px;
+}
+
+.informations {
+  height: 399px;
+  width: 317px;
+  overflow: hidden;
+}
+
+.about {
+  text-align: left;
+  font-size: 10.24px;
+  margin: 0px 35px;
+}
+.atitle {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #2b283a;
+}
+
+.stitle {
+  width: 247px;
+  margin-bottom: 25px;
+  color: #4a4e74;
+}
+
+.footer {
+  background: #d5d4d8;
+  width: 317px;
+  height: 64px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.buttons {
+}
+.btn-github {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 115px;
+  height: 34px;
+  background: #ffffff;
+
+  border: 1px solid #d1d5db;
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+a {
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-email {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 115px;
+  height: 34px;
+  background: #ffffff;
+
+  border: 1px solid #d1d5db;
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
 }
