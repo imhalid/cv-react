@@ -1,6 +1,6 @@
 # cv-react
 
-<a href="https://imhalid.github.io/cv-react/">Click to Preview</a> <br>
+<a href="https://cv-react-delta.vercel.app/">Click to Preview</a> <br>
 
 Another challenge I made myself. I learned many things again, the most important of which is that the measurements are not always correct when working with Figma!! :D
 
